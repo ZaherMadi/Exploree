@@ -102,3 +102,40 @@ body {
         .container img { 
             justify-self: center;
         }
+
+        @media (max-width: 768px) {
+    .container {
+        padding: 20px 16px;
+        margin: 40px 16px;
+    }
+
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .download-btn {
+        padding: 12px 24px;
+        font-size: 1em;
+    }
+
+    .features li {
+        font-size: 0.95em;
+    }
+}
+
